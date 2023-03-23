@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-basis: 340px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.bg-main {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.bg-blue {
+    background-color: hsl(216, 50%, 16%);
+
+}
+
+.img-section {
+    object-fit: cover;
+    position: relative;
+}
+
+.img {
+    width: 97%;
+    border-radius: 10px;
+    /* opacity: 1; */
+}
+
+
+.show-hover {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(178, 100%, 50%);
+    position: absolute;
+    /* background: url('../images/icon-view.svg'); */
+    background-position: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.img-section:hover .show-hover {
+    display: flex;
+}
+
+.py-15 {
+    padding: 15px 0px;
+}
+
+.card-info {
+    padding-bottom: 15px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+/* .view-icon {
+    display: none;
+    z-index: 2;
+} */
+
+
+
+.footer {
+    margin: 0px 11px 0px 0px
+}
+
+.soft-blue {
+    color: hsl(215, 51%, 70%)
+}
+
+.cyan {
+    color: hsl(178, 100%, 50%)
+}
+
+.text-white {
+    color: hsl(0, 0%, 100%);
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.user-info {
+    color: hsl(0, 0%, 100%);
+}
+
+.user-info:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.line {
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.avatar {
+    height: 30px;
+    width: 30px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
